@@ -1,14 +1,18 @@
 ### Problem Statement
 To be able to understand drivers of employee ratings on their employers recently, and whether these drivers differ across industries in Singapore.
 
-### Insights [INSERT PICTURES]
-During the exploratory phase, topic modelling across different countries showed very similar drivers (Management, Culture, Worklife Balance, Benefits).
-Zooming into Singapore, the key overall drivers using LDA can be grouped into 3 clusters as seen below 
-(Management, Career prospects/Benefits, Team/Environment):
+### Insights
+Results from the exploratory phase reveals that the key overall review drivers in Singapore using LDA can be grouped into 3 clusters as seen below.
+
+Overall (Management, Career prospects/Benefits, Team/Environment):
+
 ![k3 LDA](https://user-images.githubusercontent.com/55055667/87762849-58b8e680-c846-11ea-954f-07c40cb1e8ab.png)
 
+Breaking it down into industries of larger representation (e-commerce, banks, etc.) reveals that the review drivers are pretty consistent.
 
-I did an industry breakdown across those with larger representation - IT, Business services and Manufacturing.
+E-commerce:
+
+![k3 LDA - ecommerce](https://user-images.githubusercontent.com/55055667/87763352-3ecbd380-c847-11ea-8188-51715f2f4bb7.png)
 
 
 ### Flow of project
