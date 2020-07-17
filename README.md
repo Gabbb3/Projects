@@ -10,6 +10,6 @@ This section contains projects which I have done (both alone and in a team).
 - SQL 
    - Create and end-to-end use of SQL-Tableau as a manufacturing firm (SQL + Tableau)
 - LSTM (masked) - (py)
-- R Shiny, flexdashboard (R)
+- R Shiny, flexdashboard (masked) - (R)
    - From data storage, automatic preprocess into usesable form for basic model training, feature importance and visualization
 - Basic derivatives pricing (py) [FRA1]
