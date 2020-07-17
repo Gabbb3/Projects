@@ -3,7 +3,8 @@ To be able to understand drivers of employee ratings on their employers recently
 
 ### Insights [INSERT PICTURES]
 During the exploratory phase, topic modelling across different countries showed very similar drivers (Management, Culture, Worklife Balance, Benefits).
-Zooming into Singapore, the overall drivers using LDA is as below:
+Zooming into Singapore, the key overall drivers using LDA can be grouped into 3 clusters as seen below 
+(Management, Career prospects/Benefits, Team/Environment):
 ![k3 LDA](https://user-images.githubusercontent.com/55055667/87762849-58b8e680-c846-11ea-954f-07c40cb1e8ab.png)
 
 
