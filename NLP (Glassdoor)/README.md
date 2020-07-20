@@ -35,14 +35,20 @@ We then take a look at the classification reports when cut by the topics predict
 
 Next, we took a look at net sentiment scores (Negative: -1, Neutral: 0, Positive: +1) by the respective topics as well.
 
+![svm_topics_net_sentiment](https://user-images.githubusercontent.com/55055667/87915954-65874580-caa5-11ea-8452-fc6312d77697.png)
+
 The class prediction was relatively accurate, with actual and predicted net sentiment scores differing by at most 0.2 on the test data set.
 
-The results of this reveals that those whose ratings were driven by Management were generally more satisfied about their jobs compared to Benefits/Renumeration as well as Team/Culture. Nonetheless it is important to note that these three topics identified have gotten positive net sentiment scores and were all important to driving higher ratings. 
+### Key Taekeaways
+The results of this reveals that those whose ratings were driven by Management were generally more satisfied about their jobs compared to Benefits/Renumeration as well as Team/Culture. Nonetheless it is important to note that these three topics identified have gotten positive net sentiment scores and were all important to driving higher ratings.
+This analysis helps cement the fact that job satisfaction has been less about just purely renumeration and benefits, but employees themselves are looking towards meeting the higher levels of needs with respect to Maslow's hierarchy - Esteem and Self-actualization. While many more detailed research has been done to substantiate this claim, it is interesting to note that a simple text analysis on glassdoor on the Singapore employment landscape has strongly backed up the hypothesis as well.
 
-### We also looked into using prebuilt models such as VADER, TextBlob, CoreNLP and Flair along with methods like Naive Bayes (Unigram to 5-gram).
+
+### Others / Future steps and improvements
+On a side note, We also looked into using prebuilt models such as VADER, TextBlob, CoreNLP and Flair along with methods like Naive Bayes (Unigram to 5-gram).
 Codes of which is saved in the codes folder. It is also interesting to note the performance of such models.
 
-### Future steps and improvements
+
 As future steps and with a better GPU, I could efficiently look into a more detailed performance evaluation across the entire data-set using the variety of trained and pre-trained as mentioned previously (SVM, Vader, Textblob, NB etc.) and improve the performance of prediction.
 
 
