@@ -19,16 +19,37 @@ E-commerce:
 ![k3 LDA - ecommerce](https://user-images.githubusercontent.com/55055667/87763352-3ecbd380-c847-11ea-8188-51715f2f4bb7.png)
 
 
-### Next we look towards sentiment analysis to see relative performance of these drivers, with emphasis on key topics presented earlier as well as key industries such as IT, Business services and Manufacturing.
-Due to the limitations of data available, we approached it from a more global approach, including countries such as India and London.
+### Next we look towards sentiment analysis (using supervised training) to take a look at the relative performance of these drivers, with emphasis on key topics presented earlier.
+We first simplify the problem from 5-class (ratings 1-5) to a 3-class (Negative[1-2], Neutral[3], Positive[4-5]).
 
+Next we do a train-test split of (80/20), perform a fitting tfidf vectorization of the train inputs, and apply it on the test inputs as well.
+We then used SVC (linear kernel) to train the supervised model to predict sentiment category (Negative/Neutral/Positive), based on their actual ratings given.
 
+Evaluating the model results on the test set reveals relatively good performance of MCC of 0.924 as seen below.
 
+![svm_overall_classreport](https://user-images.githubusercontent.com/55055667/87911567-6ff21100-ca9e-11ea-8f5a-b189c28b7a24.png)
+
+We then take a look at the classification reports when cut by the topics predicted. It also reveals good performance of similar MCC.
+
+![svm_topics_classreport](https://user-images.githubusercontent.com/55055667/87913619-f6f4b880-caa1-11ea-903f-4302ccc56267.png)
+
+Next, we took a look at net sentiment scores (Negative: -1, Neutral: 0, Positive: +1) by the respective topics as well.
+
+The class prediction was relatively accurate, with actual and predicted net sentiment scores differing by at most 0.2 on the test data set.
+
+The results of this reveals that those whose ratings were driven by Management were generally more satisfied about their jobs compared to Benefits/Renumeration as well as Team/Culture. Nonetheless it is important to note that these three topics identified have gotten positive net sentiment scores and were all important to driving higher ratings. 
 
 ### We also looked into using prebuilt models such as VADER, TextBlob, CoreNLP and Flair along with methods like Naive Bayes (Unigram to 5-gram).
-Codes of which is saved in the codes folder.
+Codes of which is saved in the codes folder. It is also interesting to note the performance of such models.
 
-As future steps and with a better GPU, I could efficiently look into a more detailed performance evaluation across the entire data-set using the variety of trained and pre-trained as mentioned previously (SVM, Vader, Textblob, NB etc.)
+### Future steps and improvements
+As future steps and with a better GPU, I could efficiently look into a more detailed performance evaluation across the entire data-set using the variety of trained and pre-trained as mentioned previously (SVM, Vader, Textblob, NB etc.) and improve the performance of prediction.
+
+
+Also, after ascertaining the importance of the top three drivers, we could perform a simple word cloud analysis to better understand deeper what drives sentiment scores within the specific topics themselves. E.g. Which parts of benefits/renumeration led to higher/lower ratings? Was it more annual leave, flexible work from home options or higher pay?
+
+
+We could also expand this project on a more granular scale by zooming top/worst performing companies in Singapore and understand what is driving this performance. Techniques could be similar.
 
 
 ## Flow of project
