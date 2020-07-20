@@ -47,7 +47,9 @@ The class prediction was relatively accurate, with actual and predicted net sent
 
 
 ### Key Taekeaways
-The results of this reveals that those whose ratings were driven by Management were generally more satisfied about their jobs compared to Benefits/Renumeration as well as Team/Culture. Nonetheless it is important to note that these three topics identified have gotten positive net sentiment scores and were all important to driving higher ratings.
+The results of this reveals that those whose ratings were driven by Management were generally more satisfied about their jobs compared to Benefits/Renumeration as well as Team/Culture. 
+
+Nonetheless it is important to note that these three topics identified have gotten positive net sentiment scores and were all important to driving higher ratings.
 This analysis helps cement the fact that job satisfaction has been less about just purely renumeration and benefits, but employees themselves are looking towards meeting the higher levels of needs with respect to Maslow's hierarchy - Esteem and Self-actualization. While many more detailed research has been done to substantiate this claim, it is interesting to note that a simple text analysis on glassdoor on the Singapore employment landscape has strongly backed up the hypothesis as well.
 
 
