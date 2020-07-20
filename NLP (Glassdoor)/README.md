@@ -14,9 +14,15 @@ Overall (Management, Benefits/Renumeration, Culture/Team):
 ![k3 LDA](https://user-images.githubusercontent.com/55055667/87762849-58b8e680-c846-11ea-954f-07c40cb1e8ab.png)
 
 
-E-commerce:
+I also had a quick look as key topics when aggregated by some of the key players (by count) in specific industries.
+E-commerce (Amazon/Shopee/Lazada):
 
 ![k3 LDA - ecommerce](https://user-images.githubusercontent.com/55055667/87763352-3ecbd380-c847-11ea-8188-51715f2f4bb7.png)
+
+
+Banks (DBS, Citibank, JPM):
+
+![k3 LDA - banks](https://user-images.githubusercontent.com/55055667/87916704-653b7a00-caa6-11ea-9a4e-e0f30d6b7542.png)
 
 
 ### Next we look towards sentiment analysis (using supervised training) to take a look at the relative performance of these drivers, with emphasis on key topics presented earlier.
@@ -38,6 +44,7 @@ Next, we took a look at net sentiment scores (Negative: -1, Neutral: 0, Positive
 ![svm_topics_net_sentiment](https://user-images.githubusercontent.com/55055667/87915954-65874580-caa5-11ea-8452-fc6312d77697.png)
 
 The class prediction was relatively accurate, with actual and predicted net sentiment scores differing by at most 0.2 on the test data set.
+
 
 ### Key Taekeaways
 The results of this reveals that those whose ratings were driven by Management were generally more satisfied about their jobs compared to Benefits/Renumeration as well as Team/Culture. Nonetheless it is important to note that these three topics identified have gotten positive net sentiment scores and were all important to driving higher ratings.
@@ -72,3 +79,8 @@ Topic Modelling (Overall as well as across industries)
 Sentiment Analysis
   - SVM
     - TFIDF Vectorizer
+
+Analysis
+  - Net sentiment scores
+  - How to interpret the results?
+  - Key takeaways
