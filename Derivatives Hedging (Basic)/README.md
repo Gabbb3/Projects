@@ -20,3 +20,4 @@ This made it very efficient to quickly rebalance my portfolio at each time stamp
 
 ### Key Results
 Over the period of 8 time-stamps, I achieved a consistent tracking error of <1% with minimal rebalancing work.
+
