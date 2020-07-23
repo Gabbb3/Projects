@@ -41,3 +41,4 @@ However, running further analysis using the SHAP feature importance shows that t
 It will be interesting to see if these two features still hold as important as the model goes through improvement.
 
 Zooming down to these two features has given the team a sense of direction on which features to give greater focus on to further test and improve upon in order to increase retention of the inhouse service.
+
