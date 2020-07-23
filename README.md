@@ -6,8 +6,8 @@ Heavily masked projects done during work have also been included where possible 
    - Topic modelling
    - Sentiment Analysis
    
-- Data Warehousing, OLTP & OLAP, Tableau Visualization
-   - Create and end-to-end use of SQL-Tableau for a manufacturing firm (py+SQL+Tableau)
+- Data Warehousing, OLTP & OLAP, Tableau Visualization (py+SQL+Tableau)
+   - Create an ETL solution for a manufacturing firm
    - OLTP & OLAP design, with relevant ETL approach
    - Linking MySQL data warehouse to Tableau for visualization - Meeting OLAP business requirements
    
