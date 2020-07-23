@@ -1,6 +1,6 @@
 ## Summary
 ### Problem Statement
-To be able to understand drivers of employee ratings on their employers recently, and whether these drivers differ across industries in Singapore.
+To be able to understand drivers of employee ratings on their employers recently, and whether these drivers are positively impacting employer ratings in Singapore.
 
 ### Insights
 Results from the exploratory phase reveals that the key overall review drivers in Singapore using LDA can be grouped into 3 clusters as seen below. Breaking it down into industries of larger representation (e-commerce, banks, etc.) reveals that the review drivers are pretty consistent.
