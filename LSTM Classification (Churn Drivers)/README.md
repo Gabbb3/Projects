@@ -40,4 +40,4 @@ Definitely, the validation results show that much needed improvement is required
 However, running further analysis using the SHAP feature importance shows that two features are important which also coincide with domain knowledge and intuition.
 It will be interesting to see if these two features still hold as important as the model goes through improvement.
 
-Zooming down to these two features gives the team a sense of direction on which features to further test and improve upon to increase retention of the inhouse service.
+Zooming down to these two features has given the team a sense of direction on which features to give greater focus on to further test and improve upon in order to increase retention of the inhouse service.
