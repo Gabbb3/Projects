@@ -16,7 +16,7 @@ Heavily masked projects done during work have also been included where possible 
    - Bike Sharing (R) [AS1]
 
 - Context-aware recommendation systems (CARS)
-- Basic derivatives pricing (py) [To be uploaded]
+- Basic derivatives hedging (py)
 
 - LSTM (masked) - (py)
 - R Shiny, flexdashboard (masked) - (R)
