@@ -5,7 +5,7 @@ Unfortunately, time dedicated to this project is relatively short and specific d
 However, a simplified structure will be showcased instead.
 
 ### Context
-The company has recently launched an inhouse technology and besides receiving direct verbatim feedback from users, the company also wants to use internal data collected to see when and what is causing users of this service to churn away (opt out).
+The company has recently launched an inhouse technology and other than receiving direct verbatim feedback from users, the company also wants to use internal data collected to see when and what is causing users of this service to churn away (opt out).
 
 The data extracted comprises of the last 10 transaction details of each user, along with the current classification of the user themselves (whether they are classified as Churned or Engaged)
 
