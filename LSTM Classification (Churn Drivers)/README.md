@@ -26,7 +26,7 @@ The data extracted comprises of the last 10 transaction details of each user, al
   - (X users, 10 steps, 14 features)
   - Sequential model (keras)
   - 2 relu LSTM layers
-  - Initially tested with a dropout layer
+  - Initially tested with a dropout layer and other combinations
   - Sigmoid output layer
 
 - Training results
