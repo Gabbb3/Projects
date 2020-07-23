@@ -13,7 +13,7 @@ Manufacturing company, ABC Company Pte Ltd, has the current business processes i
 - Understand the OLTP and OLAP business requirements
 - Design relevant ER diagrams to meet these business needs
 - As a simulation, generate synthetic data through python in consideration of business requirements and conformity to database schema and integrity constraints
-- Build BI dashboards to meet OLAP business requirements by connecting Tableau to the MySQL data warehouse
+- Build BI dashboards to meet OLAP business requirements, visualized by connecting Tableau to the MySQL data warehouse
 
 
 ## Key Sections
@@ -30,10 +30,10 @@ Summarized transformation of data
 ![OLTP to OLAP](https://user-images.githubusercontent.com/55055667/88261873-ae373c80-ccf9-11ea-8ff0-e10941b2be5b.png)
 
 ### OLAP
-This result in the follow ER design
+This results in the following ER design
 ![OLAP](https://user-images.githubusercontent.com/55055667/88261917-c3ac6680-ccf9-11ea-93fd-806c1de61c60.png)
 
-### BI outputs to meet OLAP requirements
+### BI outputs + Key takeaways
 ![BI1](https://user-images.githubusercontent.com/55055667/88262162-3fa6ae80-ccfa-11ea-9380-6fbdd74f4028.png)
 
 
