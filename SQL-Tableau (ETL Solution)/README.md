@@ -13,6 +13,7 @@ Manufacturing company, ABC Company Pte Ltd, has the current business processes i
 - Understand the OLTP and OLAP business requirements
 - Design relevant ER diagrams to meet these business needs
 - As a simulation, generate synthetic data through python in consideration of business requirements and conformity to database schema and integrity constraints
+  - Codes are in ETL Solution - ABC Company.docx, Appendix
 - Build BI dashboards to meet OLAP business requirements, visualized by connecting Tableau to the MySQL data warehouse
 
 
