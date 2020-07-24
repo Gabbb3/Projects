@@ -1,9 +1,12 @@
 ### Summary
 
-The project details has been fully masked, but the process of which is shown below.
+The project details has been fully masked, but the rough process of which is shown below.
 
 
-The project's aim is to create a self-serving tool leveraging on a table of metrics which is tracked on a certain time basis, decomposing the delta into change due to holiday effect, change due to actual metric change and change due to shifts in dimension proportions.
+The project's aim is to create a self-serving tool leveraging on a table of metrics which is tracked on a certain time basis, decomposing the delta into three components:
+- Change due to holiday effect
+- Change due to actual metric change
+- Change due to shifts in dimension proportions
 
 The project has been done through R (shiny and flexdashboard), with some of the features integrated into Tableau dashboards for easier access.
 
