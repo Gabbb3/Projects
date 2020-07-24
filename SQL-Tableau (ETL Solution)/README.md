@@ -1,6 +1,6 @@
 ## Summary
 ### Objective
-This ETL solution aims to provide a manufacturing company, ABC Company Pte Ltd, a data warehouse for its simplified supply chain, production and sales process and department users.
+This ETL solution aims to provide a manufacturing company, ABC Company Pte Ltd, a data warehouse for its simplified supply chain, production and sales process and department users. 
 
 
 ### Context
