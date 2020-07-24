@@ -83,7 +83,7 @@ Fitting the data onto an MA(12) model produces the following results.
 
 For our second model (MA(12)), residuals from both ACF and PACF lie within the boundaries.
 
-### Improving Model 1 - Adding MA(12) to ARIMA(8,1,0)
+## Improving Model 1 - Adding MA(12) to ARIMA(8,1,0)
 
 Following the results from Model 1 (ARIMA(8,1,0)), we further implement MA(12) and obtain the following results.
 
@@ -152,3 +152,11 @@ Comparing the AIC values between all 3 models, we conclude that Model 3 gives us
 
 
 ## Forecast
+![Forecast](https://user-images.githubusercontent.com/55055667/88373811-1a35a580-cdcb-11ea-9656-3a5245802aec.png)
+
+Model 3 was then used to generate predictions and the predicted values are plotted against observations as shown in the plot above. Overall, the model fits generally well to the observations. The mean absolute error is calculated to be 9.17 passengers.
+
+
+![Forecast_2](https://user-images.githubusercontent.com/55055667/88373813-1bff6900-cdcb-11ea-92d4-2ec53ce101b0.png)
+
+Passengers forecasted for the next 3 years from year 1961 to 1964 are plotted as shown above. The relatively narrow 95% confidence interval enables more precise population estimates.
