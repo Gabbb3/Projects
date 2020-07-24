@@ -10,17 +10,15 @@ Heavily masked projects done during work have also been included where possible 
    - Create an ETL solution for a manufacturing firm
    - OLTP & OLAP design, with relevant ETL approach
    - Linking MySQL data warehouse to Tableau for visualization - Meeting OLAP business requirements
-   
-- Driver Analysis
-   - Term deposit marketing campaign (R) [Data Mining]
-   - Bike Sharing (R) [AS1]
 
 - Context-aware recommendation systems (CARS)
+
 - Derivatives Hedging (Basic) (py)
 
 - Time Series - International Airlines Passengers (R / py)
 
 - LSTM Classification (Churned Users) (masked) - (py)
+
 - R Shiny, flexdashboard (masked) - (R)
    - From data storage, automatic preprocess into usesable form for basic model training, feature importance and visualization
 
