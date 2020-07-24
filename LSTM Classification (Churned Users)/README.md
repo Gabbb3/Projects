@@ -1,4 +1,4 @@
-## Summary
+## Summary 
 ### Objective
 Aim to get a sense of what is causing users of an inhouse service to churn away (opt out) of using it.
 
