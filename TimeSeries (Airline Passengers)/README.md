@@ -3,7 +3,7 @@
 This project will be focusing on analyzing the time series from [International Airline Passengers: Monthly Totals in Thousands (Jan’49 - Dec’60)]. 
 This dataset was originally used by Box and Jenkins in their work in 1976. 
 It was collected as part of TimeSeries Dataset Library (TSDL) along with various other time series datasets by Professor Rob Hyndman at Monash University, Australia. 
-Later, the TSDL was moved to DataMarket.
+Later, the TSDL was moved to DataMarket. 
 
 
 ### Objective
