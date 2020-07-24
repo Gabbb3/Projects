@@ -14,11 +14,14 @@ Heavily masked projects done during work have also been included where possible 
 - Context-aware recommendation systems (CARS)
 
 - Derivatives Hedging (Basic) (py)
+   - Delta-hedging model
 
-- Time Series - International Airlines Passengers (R / py)
+- Time Series - International Airlines Passengers (R)
+   - Prediction
 
 - LSTM Classification (Churned Users) (masked) - (py)
+   - Identify drivers of churned users of inhouse services
 
-- R Shiny, flexdashboard (masked) - (R)
+- Analytics Self-serve Tool (R Shiny, flexdashboard (masked)) - (R)
    - From data storage, automatic preprocess into usesable form for basic model training, feature importance and visualization
 
