@@ -9,12 +9,9 @@ The project's aim is to create a self-serving tool leveraging on a table of metr
 - Change due to shifts in dimension proportions
 
 E.g. Overall change in metric from previous period : +5%
-
-Change due to holiday = +2%
-
-Change due to actual metric change = +2%
-
-Change due to shifts in dimension proportions = +1%
+- Change due to holiday = +2%
+- Change due to actual metric change = +2%
+- Change due to shifts in dimension proportions = +1%
 
 
 The project has been done through R (shiny and flexdashboard), with some of the features integrated into Tableau dashboards for easier access.
@@ -32,12 +29,9 @@ Both simple linear regressions, multiple linear regression, trend and scatter pl
 Using outputs from multiple linear regression, we do the same decomposition as above, tagging a value of change to each of the top drivers.
 
 E.g. Change in target metric due to actual metric changes = +2%
-
-Change due to driver A = +2.5%
-
-Change due to driver B = +1.5%
-
-Change due to driver C = -2.0%
+- Change due to driver A = +2.5%
+- Change due to driver B = +1.5%
+- Change due to driver C = -2.0%
 
 
 This allows the user to understand how the drivers have impacted the target metric from a linear relationship assumption standpoint.
