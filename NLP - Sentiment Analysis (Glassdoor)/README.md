@@ -1,4 +1,4 @@
-## Summary 
+## Summary
 ### Problem Statement
 To be able to understand drivers of employee ratings on their employers recently, and whether these drivers are positively impacting employer ratings in Singapore.
 
