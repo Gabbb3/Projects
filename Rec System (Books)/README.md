@@ -2,7 +2,8 @@
 
 ### Objective
 
-Using the popular BX data (http://www2.informatik.uni-freiburg.de/~cziegler/BX/), create a recommender system using item-based collaborative filtering - matrix factorization.
+Using the popular BX data (http://www2.informatik.uni-freiburg.de/~cziegler/BX/), create a recommender system using item-based collaborative filtering.
+Due to the sparse dataset in such datasets, I will be using matrix factorization to find out the latent factors which will be used in ratings prediction.
 
 Matrix Factorization:
 
